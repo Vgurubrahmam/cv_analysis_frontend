@@ -107,7 +107,7 @@ function App() {
 
     setIsLoading(true);
     try {
-      const res = await fetch("https://cv-analysis-backend.vercel.app/extract-text", {
+      const res = await fetch("https://cv-analysis-backend.onrender.com/extract-text", {
         method: "POST",
         body: formData,
       });
