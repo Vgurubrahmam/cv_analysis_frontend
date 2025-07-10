@@ -113,7 +113,7 @@ function App() {
 
     setIsLoading(true)
     try {
-      const res = await axios.post("http://localhost:3000/extract-text", formData, {
+      const res = await axios.post("https://cv-analysis-backend.vercel.app/extract-text", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
